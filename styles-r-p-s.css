@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(31, 31, 31);
+    color: white;
+    font-family: 'Prompt';
+    font-weight: 200;
+}
+.whole{
+    display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+.title{
+    font-size: 40px;
+    font-weight: 400;
+}
+.move-icon{
+    height: 50px;
+}
+.move-button{
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 60px;
+    width: 120px; 
+    height: 120px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.move-button:hover{
+    background-color: white;
+    border: none;
+}
+.reset-score-button:hover{
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+    padding: 5px 12px;
+}
+.result{
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+.score{
+    margin-top: 60px;
+}
+.reset-score-button{
+    background-color: white;
+    border: none;
+    color: black;
+    font-size: 15px;
+    font-family: 'Prompt';
+    font-weight: 400;
+    padding: 8px 15px;
+    cursor: pointer;
+}
